@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "seed" : "npx tsx ./src/lib/db/seed.ts",
     "dev": "next dev --turbopack",
     "build": "next build --turbopack",
     "start": "next start",
