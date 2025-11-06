@@ -3,3 +3,7 @@ export const APP_SLOGAN = process.env.NEXT_PUBLIC_APP_SLOGAN || "E-Commerce Proj
 export const APP_DESCRIPTION = process.env.NEXT_PUBLIC_APP_DESCRIPTION || "This is an E-Commerce project built with Next.js and Tailwind CSS and MongoDB by HosKim.";
 
 export const PAGE_SIZE = Number(process.env.PAGE_SIZE || 9)
+
+export const FREE_SHIPPING_MIN_PRICE =Number(
+    process.env.FREE_SHIPPING_MIN_PRICE || 35
+)
