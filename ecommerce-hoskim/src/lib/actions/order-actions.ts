@@ -1,3 +1,4 @@
+import { OrderItem } from "@/types"
 import { FREE_SHIPPING_MIN_PRICE } from "../constants"
 import { round2 } from "../utils"
 
